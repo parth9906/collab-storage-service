@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: storage-service
+
+  data:
+    mongodb:
+      uri: mongodb+srv://parth9906:Parth9906@parthsachan.h5piq9c.mongodb.net/?retryWrites=true&w=majority&appName=ParthSachan
+      database: storage-service
+
+server:
+  port: 9096
+
+minio:
+  url: http://localhost:9000
+  access-key: minioadmin
+  secret-key: minioadmin
+  bucket-name: collab-documents
